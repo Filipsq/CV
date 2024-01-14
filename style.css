@@ -1,0 +1,170 @@
+.yellow-square {
+    width: 1300px;
+    height: 170px;
+    background-color: rgb(224, 184, 53);
+    margin-top: 100px;
+    margin-left: 500px;
+    position: absolute; 
+}
+
+h1 {
+    position: fixed; 
+    font-size: 90px;
+    margin-top: 130px;
+    margin-left: 900px;  
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    z-index: 2;
+
+  }
+  p1 {
+    position: fixed; 
+    font-size: 30px;
+    margin-top: 230px;
+    margin-left: 900px;  
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    z-index: 2;
+
+  }
+  
+  p2 {
+    position: fixed; 
+    font-size: 20px;
+    margin-top: 280px;
+    margin-left: 900px;  
+    margin-right: 200px;
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    z-index: 2;
+
+  }
+
+  .ja{
+    position: fixed;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 5%;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+    .ja:hover{
+         transform: scale(1.2);
+    }
+
+    .edukacja {
+    position: fixed;
+    top: 75%;
+    left: 90px;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+  }
+  .szkola {
+    position: fixed;
+    top: 80%;
+    left: 50px;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+  }
+  .jezyk {
+    position: fixed;
+    top: 90%;
+    left: 90px;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+  }
+  .jezyki {
+    position: fixed;
+    top: 95%;
+    left: 50px;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+  }
+
+
+
+
+ .dark-square {
+    width: 600px;
+    height: 1500px;
+    background-color: rgb(31, 29, 26);
+    margin-left: auto;
+    position: fixed; 
+  }
+
+  .phone,
+  .adress,
+  .linkedin,
+  .gmail,
+  .upwork {
+    position: fixed;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+    max-height: 100%;
+    left: 60px;
+  }
+
+
+  .phone{
+    top: 45%;
+  }
+    .adress {
+    top: 50%;
+  }
+  
+  .gmail {
+    top: 55%;
+  }
+
+  .linkedin {
+    top: 60%;
+  }
+  
+  .upwork {
+    top: 65%;
+  }
+
+   
+  .phone-number,
+  .adress-opis,
+  .gmail-opis,
+  .linkedin-opis,
+  .upwork-opis 
+  {
+    position: absolute;
+    left: 90px;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+  }
+
+  .phone-number{
+    top: 45.5%;
+  }
+  .adress-opis{
+    top: 50.5%;
+  }
+  .gmail-opis{
+    top: 55.5%;
+  }
+  .linkedin-opis{
+    top: 60.5%;
+  }
+  .upwork-opis{
+    top: 65.5%;
+  }
+
+  
